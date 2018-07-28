@@ -1,0 +1,11 @@
+9 colors:
+
+green (background): #009000
+black: #000000
+white: #FFFFFF
+yellow: #FFFF00
+orange: #FF8000
+brown: #804000
+blue: #0077C0
+pink: #EC008C
+gray: #ACACAC
