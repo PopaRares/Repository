@@ -1,0 +1,41 @@
+Active-HDL 10.5.217.6767 2018-05-14 00:57:48
+
+Elaboration top modules:
+Architecture                  arh(extragere)
+
+
+------------------------------------------------------------------------------------------------------
+Entity           | Architecture     | Library  | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------
+extragere        | arh              | bancomat |      | 10.5.217.6767 (Windows) | -O3
+Mem_RAM_SOLD     | ARH_Mem_RAM_SOLD | bancomat |      | 10.5.217.6767 (Windows) | -O3
+Mem_Ram_Bancomat | Arh              | bancomat |      | 10.5.217.6767 (Windows) | -O3
+PlusMinus        | operations       | bancomat |      | 10.5.217.6767 (Windows) | -O3
+PIN_read         | PIN_input        | bancomat |      | 10.5.217.6767 (Windows) | -O3
+comparator       | arh              | bancomat |      | 10.5.217.6767 (Windows) | -O3
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+VHDL Package                        | Library  | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------
+standard                            | std      |      |                         | <unavailable>
+TEXTIO                              | std      |      |                         | <unavailable>
+std_logic_1164                      | ieee     |      |                         | <unavailable>
+std_logic_arith                     | ieee     |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED                  | ieee     |      |                         | <unavailable>
+NUMERIC_STD                         | ieee     |      |                         | <unavailable>
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Library                             | Comment
+------------------------------------------------------------------------------------------------------
+bancomat                            | None
+ieee                                | Standard IEEE packages library
+std                                 | Standard VHDL library
+------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+extragere extragere arh
+
+
+The performance of simulation is reduced. Version Student Edition

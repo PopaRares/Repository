@@ -1,0 +1,12 @@
+.\src\debouncer.vhd
+.\src\afisor.vhd
+.\src\input_suma.vhd
+.\src\PIN_input.vhd
+.\src\Sumator-Scazator.vhd
+.\src\cash register.vhd
+.\src\sold.vhd
+.\src\depunere.vhd
+.\src\comparator.vhd
+.\src\extragere.vhd
+.\src\UC.vhd
+.\src\Identificare_card.vhd

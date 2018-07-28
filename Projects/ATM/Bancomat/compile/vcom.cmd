@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/ATM/Bancomat/compile/Bancomat.erf -d c:/My_Designs/ATM/Bancomat/compile -s c:/My_Designs/ATM/library.cfg -j c:/My_Designs/ATM/Bancomat/projlib.cfg -work Bancomat -O3 -e 100 -work Bancomat -2002 c:/My_Designs/ATM/Bancomat/src/Identificare_card.vhd 

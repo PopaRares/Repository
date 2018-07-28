@@ -1,0 +1,4 @@
+debouncer ENTITY
+sum ENTITY
+PIN_read ENTITY
+screen ENTITY

@@ -1,0 +1,32 @@
+426
+~E 1 "./../src/test_pt_grig.vhd" 6 add_sub
+~E 1 "./../src/debouncer.vhd" 27 BANCOMAT
+~A 1 "./../src/debouncer.vhd" 38 ATM
+~E 1 "./../src/bani.vhd" 28 BIST_D
+~A 1 "./../src/bani.vhd" 36 BIST_D
+~E 1 "./../src/Identificare_card.vhd" 5 card_id
+~A 1 "./../src/Identificare_card.vhd" 14 identify
+~E 1 "./../src/comparator.vhd" 8 comparator
+~A 1 "./../src/comparator.vhd" 19 arh
+~E 1 "./../src/debouncer.vhd" 27 debounce
+~A 1 "./../src/debouncer.vhd" 36 logic
+~E 1 "./../src/debouncer.vhd" 27 debouncer
+~A 1 "./../src/debouncer.vhd" 35 normalise
+~E 1 "./../src/chitanta.vhd" 4 Demux_chitanta
+~E 1 "./../src/depunere.vhd" 6 depunere
+~A 1 "./../src/depunere.vhd" 15 depunere
+~E 1 "./../src/extragere.vhd" 7 extragere
+~A 1 "./../src/extragere.vhd" 20 arh
+~E 1 "./../src/cash register.vhd" 5 Mem_Ram_Bancomat
+~A 1 "./../src/cash register.vhd" 12 Arh
+~E 1 "./../src/sold.vhd" 5 Mem_RAM_SOLD
+~A 1 "./../src/sold.vhd" 14 ARH_Mem_RAM_SOLD
+~E 1 "./../src/PIN_input.vhd" 4 PIN_read
+~A 1 "./../src/PIN_input.vhd" 18 PIN_input
+~E 1 "./../src/Sumator-Scazator.vhd" 7 PlusMinus
+~A 1 "./../src/Sumator-Scazator.vhd" 16 operations
+~E 1 "./../src/afisor.vhd" 5 screen
+~A 1 "./../src/afisor.vhd" 15 LED
+~E 1 "./../src/input_suma.vhd" 4 sum
+~A 1 "./../src/input_suma.vhd" 15 read
+~E 1 "./../src/UC.vhd" 5 UC

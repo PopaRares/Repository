@@ -1,0 +1,1299 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Warning: ELAB1_0026: extragere.vhd : (106, 0): There is no default binding for component "PIN_read". (Port "ceva_numar_idk" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Warning: ELAB1_0026: extragere.vhd : (106, 0): There is no default binding for component "PIN_read". (Port "ceva_numar_idk" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Warning: ELAB1_0026: extragere.vhd : (106, 0): There is no default binding for component "PIN_read". (Port "ceva_numar_idk" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/PIN_input.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  23:01, Sunday, May 13, 2018
+#  Simulation has been initialized
+# add wave -noreg {/extragere/Adr}
+# add wave -noreg {/extragere/digit}
+# add wave -noreg {/extragere/Set}
+# add wave -noreg {/extragere/Enable}
+# add wave -noreg {/extragere/Chitanta_out}
+# add wave -noreg {/extragere/success}
+# add wave -noreg {/extragere/error}
+# add wave -noreg {/extragere/done}
+# add wave -noreg {/extragere/card_in}
+# add wave -noreg {/extragere/card_out}
+# add wave -noreg {/extragere/card_write}
+# add wave -noreg {/extragere/cash_address}
+# add wave -noreg {/extragere/cash_in}
+# add wave -noreg {/extragere/cash_out}
+# add wave -noreg {/extragere/cash_write}
+# add wave -noreg {/extragere/op_A}
+# add wave -noreg {/extragere/op_B}
+# add wave -noreg {/extragere/op_enable}
+# add wave -noreg {/extragere/op_rez}
+# add wave -noreg {/extragere/comp_enable}
+# add wave -noreg {/extragere/comp_valid}
+# add wave -noreg {/extragere/comp_done}
+# add wave -noreg {/extragere/comp_coin_list}
+# add wave -noreg {/extragere/sum_reset}
+# add wave -noreg {/extragere/sum_done}
+# add wave -noreg {/extragere/sum_code}
+# add wave -noreg {/extragere/sum}
+# add wave -noreg {/extragere/reg_addr}
+# add wave -noreg {/extragere/test_env}
+# add wave -noreg {/extragere/receipt_set}
+# add wave -noreg {/extragere/account_done}
+# add wave -noreg {/extragere/register_done}
+# add wave -noreg {/extragere/test}
+# 33 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  23:02, Sunday, May 13, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:17, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:25, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @250ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @350ns
+# KERNEL: stopped at time: 350 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @450ns
+# KERNEL: stopped at time: 450 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @500ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @550ns
+# KERNEL: stopped at time: 550 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/PIN_input.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'bancomat.pin_read' instantiated in architecture 'arh:extragere' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/PIN_input.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:29, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:29, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# RUNTIME: Fatal Error: RUNTIME_0047 PIN_input.vhd (30): Index -4 out of range (0 to 15).
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /extragere/sum_input,  Process: PIN_input.
+# KERNEL: Stopped at time 150 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/PIN_input.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/PIN_input.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/PIN_input.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:32, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @50ns
+# VSIM: Error: 50ns is less than current simulation time.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @250ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @350ns
+# KERNEL: stopped at time: 350 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @450ns
+# KERNEL: stopped at time: 450 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @500ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @550ns
+# KERNEL: stopped at time: 550 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/PIN_input.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+PIN_read PIN_read PIN_input
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6172 kB (elbread=1280 elab2=4754 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:35, Monday, May 14, 2018
+#  Simulation has been initialized
+# add wave -noreg {/PIN_read/PIN}
+# add wave -noreg {/PIN_read/button}
+# add wave -noreg {/PIN_read/reset}
+# add wave -noreg {/PIN_read/complete}
+# add wave -noreg {/PIN_read/PIN_code}
+# add wave -noreg {/PIN_read/ceva_numar_idk}
+# 6 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @250ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @350ns
+# KERNEL: stopped at time: 350 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @450ns
+# KERNEL: stopped at time: 450 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 50 ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @550ns
+# KERNEL: stopped at time: 550 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @650ns
+# KERNEL: stopped at time: 650 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @700ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:38, Monday, May 14, 2018
+#  Simulation has been initialized
+# add wave -noreg {/extragere/Adr}
+# add wave -noreg {/extragere/digit}
+# add wave -noreg {/extragere/Set}
+# add wave -noreg {/extragere/Enable}
+# add wave -noreg {/extragere/Chitanta_out}
+# add wave -noreg {/extragere/success}
+# add wave -noreg {/extragere/error}
+# add wave -noreg {/extragere/done}
+# add wave -noreg {/extragere/card_in}
+# add wave -noreg {/extragere/card_out}
+# add wave -noreg {/extragere/card_write}
+# add wave -noreg {/extragere/cash_address}
+# add wave -noreg {/extragere/cash_in}
+# add wave -noreg {/extragere/cash_out}
+# add wave -noreg {/extragere/cash_write}
+# add wave -noreg {/extragere/op_A}
+# add wave -noreg {/extragere/op_B}
+# add wave -noreg {/extragere/op_enable}
+# add wave -noreg {/extragere/op_rez}
+# add wave -noreg {/extragere/comp_enable}
+# add wave -noreg {/extragere/comp_valid}
+# add wave -noreg {/extragere/comp_done}
+# add wave -noreg {/extragere/comp_coin_list}
+# add wave -noreg {/extragere/sum_reset}
+# add wave -noreg {/extragere/sum_done}
+# add wave -noreg {/extragere/sum_code}
+# add wave -noreg {/extragere/sum}
+# add wave -noreg {/extragere/reg_addr}
+# add wave -noreg {/extragere/test_env}
+# add wave -noreg {/extragere/receipt_set}
+# add wave -noreg {/extragere/account_done}
+# add wave -noreg {/extragere/register_done}
+# add wave -noreg {/extragere/test}
+# 33 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Warning: KERNEL_0096 Specified value cannot fit in signal. Most significant bit(s) will be lost.
+# KERNEL: Error: KERNEL_0066 Value 0010 does not belong to type STD_LOGIC.
+# VSIM: Error: Cannot force signal "/extragere/Enable" with formula "0010".
+# KERNEL: Warning: KERNEL_0096 Specified value cannot fit in signal. Most significant bit(s) will be lost.
+# KERNEL: Error: KERNEL_0066 Value 0010 does not belong to type STD_LOGIC.
+# VSIM: Error: Cannot force signal "/extragere/Set" with formula "0010".
+run @250ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:40, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @250ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @350ns
+# KERNEL: stopped at time: 350 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @450ns
+# KERNEL: stopped at time: 450 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @500ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @550ns
+# KERNEL: stopped at time: 550 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @650ns
+# KERNEL: stopped at time: 650 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:42, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:42, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @250ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @350ns
+# KERNEL: stopped at time: 350 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @450ns
+# KERNEL: stopped at time: 450 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @500ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @550ns
+# KERNEL: stopped at time: 550 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @650ns
+# KERNEL: stopped at time: 650 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @700ns
+# KERNEL: stopped at time: 700 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @750ns
+# KERNEL: stopped at time: 750 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @800ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @850ns
+# KERNEL: stopped at time: 850 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @900ns
+# KERNEL: stopped at time: 900 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @950ns
+# KERNEL: stopped at time: 950 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1us
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.05us
+# KERNEL: stopped at time: 1050 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.1us
+# KERNEL: stopped at time: 1100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.15us
+# KERNEL: stopped at time: 1150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @1.2us
+# KERNEL: stopped at time: 1200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:50, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/op,  Process: calcul.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7227 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:51, Monday, May 14, 2018
+#  Simulation has been initialized
+# add wave -noreg {/extragere/Adr}
+# add wave -noreg {/extragere/digit}
+# add wave -noreg {/extragere/Set}
+# add wave -noreg {/extragere/Enable}
+# add wave -noreg {/extragere/Chitanta_out}
+# add wave -noreg {/extragere/success}
+# add wave -noreg {/extragere/error}
+# add wave -noreg {/extragere/done}
+# add wave -noreg {/extragere/card_in}
+# add wave -noreg {/extragere/card_out}
+# add wave -noreg {/extragere/card_write}
+# add wave -noreg {/extragere/cash_address}
+# add wave -noreg {/extragere/cash_in}
+# add wave -noreg {/extragere/cash_out}
+# add wave -noreg {/extragere/cash_write}
+# add wave -noreg {/extragere/op_A}
+# add wave -noreg {/extragere/op_B}
+# add wave -noreg {/extragere/op_enable}
+# add wave -noreg {/extragere/op_rez}
+# add wave -noreg {/extragere/comp_enable}
+# add wave -noreg {/extragere/comp_valid}
+# add wave -noreg {/extragere/comp_done}
+# add wave -noreg {/extragere/comp_coin_list}
+# add wave -noreg {/extragere/sum_reset}
+# add wave -noreg {/extragere/sum_done}
+# add wave -noreg {/extragere/sum_code}
+# add wave -noreg {/extragere/sum}
+# add wave -noreg {/extragere/reg_addr}
+# add wave -noreg {/extragere/test_env}
+# add wave -noreg {/extragere/receipt_set}
+# add wave -noreg {/extragere/account_done}
+# add wave -noreg {/extragere/register_done}
+# add wave -noreg {/extragere/test}
+# 33 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Warning: KERNEL_0096 Specified value cannot fit in signal. Most significant bit(s) will be lost.
+# KERNEL: Error: KERNEL_0066 Value 0001 does not belong to type STD_LOGIC.
+# VSIM: Error: Cannot force signal "/extragere/Enable" with formula "0001".
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @200ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @250ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @300ns
+# KERNEL: stopped at time: 300 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @350ns
+# KERNEL: stopped at time: 350 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @400ns
+# KERNEL: stopped at time: 400 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @450ns
+# KERNEL: stopped at time: 450 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @500ns
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @550ns
+# KERNEL: stopped at time: 550 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @600ns
+# KERNEL: stopped at time: 600 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @650ns
+# KERNEL: stopped at time: 650 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:56, Monday, May 14, 2018
+#  Simulation has been initialized
+# add wave -noreg {/extragere/Adr}
+# add wave -noreg {/extragere/digit}
+# add wave -noreg {/extragere/Set}
+# add wave -noreg {/extragere/Enable}
+# add wave -noreg {/extragere/Chitanta_out}
+# add wave -noreg {/extragere/success}
+# add wave -noreg {/extragere/error}
+# add wave -noreg {/extragere/done}
+# add wave -noreg {/extragere/card_in}
+# add wave -noreg {/extragere/card_out}
+# add wave -noreg {/extragere/card_write}
+# add wave -noreg {/extragere/cash_address}
+# add wave -noreg {/extragere/cash_in}
+# add wave -noreg {/extragere/cash_out}
+# add wave -noreg {/extragere/cash_write}
+# add wave -noreg {/extragere/op_A}
+# add wave -noreg {/extragere/op_B}
+# add wave -noreg {/extragere/op_enable}
+# add wave -noreg {/extragere/op_rez}
+# add wave -noreg {/extragere/comp_enable}
+# add wave -noreg {/extragere/comp_valid}
+# add wave -noreg {/extragere/comp_done}
+# add wave -noreg {/extragere/comp_coin_list}
+# add wave -noreg {/extragere/sum_reset}
+# add wave -noreg {/extragere/sum_done}
+# add wave -noreg {/extragere/sum_code}
+# add wave -noreg {/extragere/sum}
+# add wave -noreg {/extragere/reg_addr}
+# add wave -noreg {/extragere/test_env}
+# add wave -noreg {/extragere/receipt_set}
+# add wave -noreg {/extragere/account_done}
+# add wave -noreg {/extragere/register_done}
+# add wave -noreg {/extragere/test}
+# 33 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 2,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 100 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run @150ns
+# KERNEL: stopped at time: 150 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+extragere extragere arh
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7228 kB (elbread=1280 elab2=5809 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\ATM\Bancomat\src\wave.asdb
+#  0:57, Monday, May 14, 2018
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/ATM/Bancomat/src/wave.asdb'.
+run @50ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /extragere/exchange_validation,  Process: avem_bancnote.
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/debouncer.vhd $dsn/src/afisor.vhd $dsn/src/input_suma.vhd $dsn/src/PIN_input.vhd $dsn/src/Sumator-Scazator.vhd "$dsn/src/Identificare card.vhd" "$dsn/src/cash register.vhd" $dsn/src/sold.vhd $dsn/src/depunere.vhd $dsn/src/comparator.vhd $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\debouncer.vhd
+# Compile Entity "debouncer"
+# Compile Architecture "normalise" of Entity "debouncer"
+# File: c:\My_Designs\ATM\Bancomat\src\afisor.vhd
+# Compile Entity "screen"
+# Compile Architecture "LED" of Entity "screen"
+# File: c:\My_Designs\ATM\Bancomat\src\input_suma.vhd
+# Compile Entity "sum"
+# Compile Architecture "read" of Entity "sum"
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# File: c:\My_Designs\ATM\Bancomat\src\Sumator-Scazator.vhd
+# Compile Entity "PlusMinus"
+# Compile Architecture "operations" of Entity "PlusMinus"
+# File: c:\My_Designs\ATM\Bancomat\src\Identificare card.vhd
+# Compile Entity "card_id"
+# Compile Architecture "identify" of Entity "card_id"
+# File: c:\My_Designs\ATM\Bancomat\src\cash register.vhd
+# Compile Entity "Mem_Ram_Bancomat"
+# Compile Architecture "Arh" of Entity "Mem_Ram_Bancomat"
+# File: c:\My_Designs\ATM\Bancomat\src\sold.vhd
+# Compile Entity "Mem_RAM_SOLD"
+# Compile Architecture "ARH_Mem_RAM_SOLD" of Entity "Mem_RAM_SOLD"
+# File: c:\My_Designs\ATM\Bancomat\src\depunere.vhd
+# Compile Entity "depunere"
+# Compile Architecture "depunere" of Entity "depunere"
+# File: c:\My_Designs\ATM\Bancomat\src\comparator.vhd
+# Compile Entity "comparator"
+# Compile Architecture "arh" of Entity "comparator"
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/debouncer.vhd $dsn/src/afisor.vhd $dsn/src/input_suma.vhd $dsn/src/PIN_input.vhd $dsn/src/Sumator-Scazator.vhd "$dsn/src/Identificare card.vhd" "$dsn/src/cash register.vhd" $dsn/src/sold.vhd $dsn/src/depunere.vhd $dsn/src/comparator.vhd $dsn/src/extragere.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\debouncer.vhd
+# Compile Entity "debouncer"
+# Compile Architecture "normalise" of Entity "debouncer"
+# File: c:\My_Designs\ATM\Bancomat\src\afisor.vhd
+# Compile Entity "screen"
+# Compile Architecture "LED" of Entity "screen"
+# File: c:\My_Designs\ATM\Bancomat\src\input_suma.vhd
+# Compile Entity "sum"
+# Compile Architecture "read" of Entity "sum"
+# File: c:\My_Designs\ATM\Bancomat\src\PIN_input.vhd
+# Compile Entity "PIN_read"
+# Compile Architecture "PIN_input" of Entity "PIN_read"
+# File: c:\My_Designs\ATM\Bancomat\src\Sumator-Scazator.vhd
+# Compile Entity "PlusMinus"
+# Compile Architecture "operations" of Entity "PlusMinus"
+# File: c:\My_Designs\ATM\Bancomat\src\Identificare card.vhd
+# Compile Entity "card_id"
+# Compile Architecture "identify" of Entity "card_id"
+# File: c:\My_Designs\ATM\Bancomat\src\cash register.vhd
+# Compile Entity "Mem_Ram_Bancomat"
+# Compile Architecture "Arh" of Entity "Mem_Ram_Bancomat"
+# File: c:\My_Designs\ATM\Bancomat\src\sold.vhd
+# Compile Entity "Mem_RAM_SOLD"
+# Compile Architecture "ARH_Mem_RAM_SOLD" of Entity "Mem_RAM_SOLD"
+# File: c:\My_Designs\ATM\Bancomat\src\depunere.vhd
+# Compile Entity "depunere"
+# Compile Architecture "depunere" of Entity "depunere"
+# File: c:\My_Designs\ATM\Bancomat\src\comparator.vhd
+# Compile Entity "comparator"
+# Compile Architecture "arh" of Entity "comparator"
+# File: c:\My_Designs\ATM\Bancomat\src\extragere.vhd
+# Compile Entity "extragere"
+# Compile Architecture "arh" of Entity "extragere"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/UC.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\UC.vhd
+# Compile Entity "UC"
+# Compile Architecture "UC" of Entity "UC"
+# Warning: ELAB1_0026: UC.vhd : (183, 0): There is no default binding for component "card_id". (Port "reset" is not on the entity).
+# Warning: ELAB1_0026: UC.vhd : (184, 0): There is no default binding for component "Mem_ROM_PIN". (No entity named "Mem_ROM_PIN" was found).
+# Warning: ELAB1_0026: UC.vhd : (186, 0): There is no default binding for component "comp_card". (No entity named "comp_card" was found).
+# Warning: ELAB1_0026: UC.vhd : (189, 0): There is no default binding for component "decision". (No entity named "decision" was found).
+# Warning: ELAB1_0026: UC.vhd : (192, 0): There is no default binding for component "vizualizare_sold". (No entity named "vizualizare_sold" was found).
+# Error: ELAB1_0021: UC.vhd : (194, 0): Types do not match for port "account_address".
+# Compile failure 1 Errors 5 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Bancomat -2002  $dsn/src/Identificare_card.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\ATM\Bancomat\src\Identificare_card.vhd
+# Compile Entity "card_id"
+# Compile Architecture "identify" of Entity "card_id"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
